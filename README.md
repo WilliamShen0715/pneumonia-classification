@@ -1,17 +1,21 @@
-*** 以YOLOv3識別肺炎X光圖片
+### 以YOLOv3識別肺炎X光圖片
 
-**** (訓練與測試資料已移除)
+#### (訓練與測試資料已移除)
+
 此YOLOv3採用darknet架構，需預先載入。
-** 訓練與測試的圖檔路徑
-*** 訓練:
+
+## 訓練與測試的圖檔路徑
+
+### 訓練:
 
 `/1/train/`
 
-*** 測試:
+### 測試:
 
 `/1/val/`
 
 1.進入/darknet 路徑
+
 2.訓練模型:
 
 `./darknet detector train cfg/cat_and_dog.data cfg/cat_and_dog_yolov3.cfg backup/cat_and_dog_yolov3_final.weights`
